@@ -1,0 +1,208 @@
+/* reset */
+body, html, ul, main {
+	margin: 0;
+	padding: 0;
+}
+section, header, footer, main {
+	display: block;
+}
+
+body {	
+	background-color: #c8cfdc;
+	font-family: 'Roboto', sans-serif;
+}
+.main {
+	width: 1500px;
+	padding: 50px 40px;
+	overflow: hidden;
+}
+.main .imgPosition {
+	display: inline-block;
+	position: absolute;
+	bottom: 160px;
+}
+.main .row {
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.product {
+	width: 240px;
+	height: 370px;
+	padding: 30px 20px;
+	float: left;
+	background-color: white;
+	margin: 0 10px;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+}
+#nikeAirMax {
+	background-color: rgb( 56, 61, 104 );
+	color: white;
+}
+.content {
+	text-align: center;
+	width: 240px;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 40px;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 14px;
+    margin: 20px 0 10px;
+    font-weight: 900;
+}
+.content span {
+	display: block;
+}
+.describe {
+	font-weight: 300;
+	font-size: 15px;
+}
+span.price {
+	margin-top: 15px; 
+	font-weight: 900;
+	display: inline-block;
+}
+span.price:before {
+	content: "$";
+}
+del.prevPrice:before {
+	content: "$";
+}
+del.prevPrice {
+	color: red;
+	display: inline-block;
+}
+span.tag {
+	background-color: #0089cf;
+	border-radius: 25px;
+	width: 80px;
+	position: absolute;
+	top: 80;
+	color: white;
+	text-align: center;
+	left: 100px;
+}
+.roll {
+	position: absolute;
+	top: 30px;
+	width: 20px;
+	height: 20px;
+}
+.rollleft {		
+	left: 25px;		
+}
+.rollright {
+	right: 25px;
+	background-position:  0 20px;
+}
+.product:hover .roll{
+	background-image: url(../img/icon.png);
+}
+.main section #imgJacket {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#jacket {
+	text-align: center;
+	text-transform: uppercase;
+}
+#jacket p {
+	font-size: 10px;
+} 
+#jacket h1 {
+	margin-top: 0;
+	font-size: 46px;
+}
+.productBig {
+	font-family: 'Roboto', sans-serif;
+	width: 580px;
+	height: 430px;
+	padding: 0;
+	background-color: white;
+	margin: 0 10px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.contentBalman {
+	margin-top: 120px;
+	width: 240px;
+	padding-right: 20px;
+	float: right;
+}
+.contentBalman h2 {
+	margin: 10px 0;
+}
+.contentBalman span.subHead, .contentBalman p{
+	color: rgb( 102, 102, 102 );
+	font-weight: 300;
+}
+.contentBalman p {
+	font-size: 14px;
+}
+.greenTag {
+	background-color: rgb( 131, 215, 140 );
+	position: absolute;
+	top: 30px;
+	padding: 2px 10px;
+	text-transform: uppercase;
+	border-radius: 25px;
+	color: white;
+	font-size: 16px;
+}
+.tagNews {
+	left: 260px;
+}
+#imgBigpro {
+	display: block;
+	float: left;
+}
+#rafImg {
+	height: 280px;
+	width: 100%;
+	display: block;
+	float: left;
+}
+.contentRaf:before {
+	content: '';
+	display: block;
+	clear: both;
+}
+.contentRaf {
+	text-align: center;
+	margin-top: 310px;
+}
+.contentRaf h2 {
+	text-transform: uppercase;
+}
+.contentRaf span.subRaf {
+	font-weight: 300;
+	display: block;
+}
+#nixon {
+	background-color: #333333;
+	color: white;
+}
+#nixonImg {
+	display: block;
+	margin: 25px auto;
+}
+#nixon .brand {
+	display: block;
+	font-size: 10px;
+	line-height: 25px;
+	text-transform: uppercase;
+	text-align: center;	
+}
+#nixon p {
+	font-weight: 300;
+}
+span.readMore {
+	text-transform: uppercase;
+	margin-top: 50px;
+    display: block;
+}
